@@ -24,8 +24,10 @@ if(curSong.toLowerCase() == 'your-song'){
 			}
  
  # After That Find This 
+ 
  super.update(elapsed);
  # And Type After The Code This :
+ 
  
  if (curSong.toLowerCase() == "your-song"){
 	        if(FlxG.keys.justPressed.SPACE && !dodging && ableToDodge){
@@ -49,9 +51,11 @@ if(curSong.toLowerCase() == 'your-song'){
 	    }
       
  # Find This :
+ 
  callOnLuas('onStepHit', []);
  
  # And Type This :
+ 
  if (curSong.toLowerCase() == "pico"){
 			switch (curStep){
 				case The-Time:
